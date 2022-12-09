@@ -1,0 +1,70 @@
+html body {
+	overflow-y: scroll;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1024;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+}
+
+.mp-box-panel{
+	border: solid #dedede 1px;
+	padding: 2px;
+	margin-top: 10px;
+}
+
+.mp-caixa-1{
+	
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+	
+}
+
+.flex-item-1 {
+	flex: inherit;
+
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+	width: 300px;	
+	height: 120px;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;	
+	display: flex;	
+	justify-content: space-between;
+}
+
+.mp-sel{
+	font-size: 18pt;
+    border: solid 1px #e2e1e1;
+    background-color: #fbfbfb;
+    color: #404040;
+    padding: 4px;
+    border-radius: 2px;
+    margin: 3px;
+    min-width: 200px;
+}

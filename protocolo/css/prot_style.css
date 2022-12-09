@@ -1,0 +1,102 @@
+html body {
+	overflow-y: scroll;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+	font-weight: 700;
+}
+
+header img.logo{
+
+    height: 75PX;
+
+}
+
+header span.titulo{
+	font-family: 'Baloo Da', cursive;
+   
+    font-size: 5EM;
+    color: #dedede;
+    margin: 0;
+}
+
+
+.clientes{
+    width: 100%;
+    /*border: solid 1px gray;*/
+    height: calc(100vh - 200px);
+}
+
+.clientes > .linhas{
+	    width: 100%;
+    position: inherit;
+}
+
+
+.clientes > .linhas > .box{
+	height: 100px;
+    border: solid 1px #9E9E9E;
+    float: left;
+    /*opacity: .4;*/
+    transition: all .2s ease-in-out;
+    width: calc(100% - 1px);
+    position: relative;
+    display: inline-flex;
+}
+
+.clientes > .linhas > .box:hover{
+	box-shadow: 0 0 16px 2px rgba(0,0,0,.2);
+	opacity: 1;
+}
+
+.content > .ug > h3{
+	margin: 0;
+    padding: 7px;
+}
+.clientes > .linhas > .box > .brasao {        
+    width: 100px;    
+}
+
+.clientes > .linhas > .box > .brasao > img{
+    height: 80px;
+    padding: 10px;    
+    max-width: 80px;
+}
+
+.col{
+	width: 170px;
+    height: 62px;
+    display: inline-block;
+    position: relative;
+    margin-left: 6px;
+    vertical-align: top;
+}
+
+.campo, .campo-sm, .valor, .valor-sm{
+	margin: 0;
+}
+
+.campo{
+	font-size: 1em;
+}
+.campo-sm{
+	font-size: 0.7em;
+}
+
+.valor{
+	font-size: 2em;
+}
+.valor-sm{
+	font-size: 0.8em;
+}

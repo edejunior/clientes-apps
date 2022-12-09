@@ -1,0 +1,170 @@
+<html>
+<head>
+	<title>Gextec Proposta</title>
+	<link  rel="icon" href="//cdn.municipioweb.com.br/public/images/favicons/06_cronos.png" />    	
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<meta name="robots" content="noindex">
+
+</head>
+
+<body>
+	<style type="text/css">
+		body{
+			overflow: hidden;
+			overflow-y: hidden;
+		}
+		.btn {
+  background:white;
+  text-align:center;
+  letter-spacing:1px;
+  font-size:1.4em;
+  line-height:1.2em;
+  font-weight:300;
+  position:absolute;
+  top:150px;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:240px;
+  height:25px;
+  padding:20px 0;
+  border:1px solid #009688;
+  overflow:hidden;
+  display:inline-block;
+  transition:all 0.5s;
+  box-shadow:0px 3px 0px #00695C;
+  border-radius: 4px;
+}
+
+.btn:hover, .btn:active {
+    text-decoration: none;
+    color: #fff;
+    border-color: lightseagreen;
+    background: lightseagreen;
+    box-shadow: 0 0 0 lightseagreen;
+}
+
+.btn-label {
+  display:inline-block;
+  position:relative;
+  padding-right:0;
+  transition:padding-right 0.5s;
+  color:#004D40;
+  font-family: 'Exo 2', sans-serif;
+  font-weight:200;
+}
+.btn-label:after {
+  content: '\2B73';
+  position:relative;
+  font-weight: bold;
+  left:30px;
+  opacity:0;
+  color: #fff;
+  top:22%;
+  width:10px;
+  height:10px;
+  margin-right:-10px;
+  background:rgba(0,0,0,0);
+  border:none;
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+}
+
+.btn:hover .btn-label,
+.btn:active .btn-label {
+  padding-right:30px;
+  color:#f5f1e7;
+  color: #fff;
+}
+
+.btn:hover .btn-label:after,
+.btn:active .btn-label:after {
+  transition:opacity: 0.5s, top 0.5s, right 0.5s;
+  opacity:1;
+  right:10px;  
+}
+header{
+	position: absolute;
+    /* z-index: 1000; */
+    display: block;
+    top: 10%;
+    /* margin: 0 auto; */
+    text-align: -webkit-center;
+    width: 100%;
+}
+
+footer{
+	font-family: 'Exo 2', sans-serif;
+	color: #9E9E9E;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	display: block;
+	bottom: 5px;
+}
+.titulo{
+	    font-family: 'Exo 2', sans-serif;
+    color: #004D40;
+    background: white;
+    width: fit-content;
+    padding: 5px;
+    font-weight: 100;
+    margin: 10px;
+}
+
+@media all and (max-width: 1366px) {
+	.btn{
+		    width: 150px;
+    height: 15px;
+		font-size: 1.2em;
+    line-height: 0.8em;
+    top:100px;
+	}
+
+	.btn-label:after {
+		    left: 20px;
+	}
+
+	.titulo {
+		    margin: 5px;
+    	font-size: 1.5em;
+        padding: 4px;
+	}
+
+	span.titulo{		
+    	font-size: 0.8em;
+        
+	}
+
+	header > img{
+		    height: 175px;
+	}
+	
+	footer{
+		font-size: 0.9em;
+	}
+}
+
+	</style>
+	<canvas id="playArea"></canvas>
+	<header>
+		<img src="./gextec_bg.png">
+		<h2 class="titulo">Gextec Proposta</h2>
+		<span class="titulo">para Windows</span>
+	</header>
+	<section>
+		<a target="_blank" href="./versions/current/GextecProposta.zip" style="right:20%;" class="btn">
+	  <span class="btn-label">Baixar</span>
+	</a>
+	<a target="_blank" href="./versions/current/manual-gextec-proposta.pdf" style="left:20%;" class="btn">
+	  <span class="btn-label">Manual</span>
+	</a>
+	</section>
+	<footer><span>2019 - COPLAN - Consultoria e Planejamento © - Todos os direitos reservados<br>CNPJ 07.281.368/0001-14</span></footer>
+	<script>setTimeout(function(){window.requestAnimFrame=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||function(t){window.setTimeout(t,1e3/23)},$(function(){$(window).resize(function(){$("#playArea").attr({width:$("body").width(),height:$("body").height()}),width=$("body").width(),height=$("body").height()}),$(window).resize()});var can,ctx,interval,width,height,Point=function(){this._size=.5,this._x=0,this._y=0,this._direction=0,this._velocity=0,this._distances=[],this._neighboors=[],this._randomization=0,this.__collection=null,this._step=function(t){var i=.2*this._velocity*((Math.random()*this._randomization+1)/10),n=2*Math.random()%2>1?-1:1;this._direction=1*this._direction+Math.random()*this._randomization*n;var e=this._direction*Math.PI/180;this._x=1*this._x+i*Math.cos(e)*1,this._y=1*this._y+i*Math.sin(e)*1,this._x>width&&(this._x=0),this._x<0&&(this._x=width),this._y>height&&(this._y=0),this._y<0&&(this._y=height),this.__collection=t},this._computeNeighboors=function(){if(null!=this.__collection){for(aCollection=this.__collection,this._distances=[],i=0;i<aCollection.length;i++)aCollection[i]._x!=this._x&&aCollection[i]._y!=this._y&&this._distances.push({pointIndex:i,pointObj:aCollection[i],distance:Math.sqrt(Math.pow(this._x-aCollection[i]._x,2)+Math.pow(this._y-aCollection[i]._y,2))});this._distances.sort(function(t,i){return defaultReturn=0,t.distance<i.distance&&(defaultReturn=-1),t.distance>i.distance&&(defaultReturn=1),defaultReturn}),this._neighboors=this._distances.slice(0,3)}},this.draw=function(t){for(this._computeNeighboors(),t.lineWidth=.25,t.strokeStyle="#999",t.beginPath(),i=0;i<this._neighboors.length;i++)t.moveTo(this._x,this._y),t.lineTo(this._neighboors[i].pointObj._x,this._neighboors[i].pointObj._y),t.lineWidth=.1+5/this._neighboors[i].distance;t.closePath(),t.stroke(),t.beginPath(),t.arc(this._x,this._y,this._size*this._velocity,0,2*Math.PI,!1),t.fillStyle="#4caf50",t.strokeStyle="#999",t.lineWidth=.5,t.fill(),t.stroke(),t.beginPath(),t.arc(this._x,this._y,this._size,0,2*Math.PI,!1),t.fillStyle="#3e7545",t.fill()}},aPoints=[],numPoints=70;function init(){for(can=document.getElementById("playArea"),ctx=can.getContext("2d"),width=$("body").width(),height=$("body").height(),x=0;x<numPoints;x++){var t=new Point;t._size=(2.5*Math.random()+.5).toFixed(2),t._x=(Math.random()*width).toFixed(0),t._y=(Math.random()*height).toFixed(0),t._direction=(360*Math.random()).toFixed(2),t._velocity=(3.9*Math.random()+.2).toFixed(2),t._randomization=(10*Math.random()+0).toFixed(2),aPoints.push(t)}animate()}function animate(){for(x=0;x<numPoints;x++)aPoints[x]._step(aPoints);requestAnimFrame(animate),draw()}function draw(){for(ctx.save(),ctx.clearRect(0,0,width,height),x=0;x<numPoints;x++)aPoints[x].draw(ctx);ctx.restore()}init();},1);</script>	
+</body>
+
+</html>

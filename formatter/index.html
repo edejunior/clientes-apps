@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Genexus Formatter | by Alan M.</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="cab">
+				<h2>Genexus Formatter</h2>
+				<small>by Alan M.</small>
+			</header>		
+			<section class="content">
+				<div class="row">
+					<span>Operação: </span>
+					<select class="sel">
+						<option value="1" selected>Formatar identação '='</option>
+						<option value="2" >Replace do ALAN |o|</option>
+					</select>
+				</div>
+				<div class="row">
+					<textarea class="in-ta" id="texto_orig"></textarea>	
+				</div>
+				<div class="row">
+					<textarea class="in-ta" id="texto_resu"></textarea>	
+				</div>
+				<div class="row">
+					<button class="btn" id="copy_cp" onclick="copyText()">
+						Copiar
+					</button>
+				</div>
+			</section>
+		</div>		
+	</body>
+</html>
