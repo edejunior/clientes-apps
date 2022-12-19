@@ -95,7 +95,13 @@ const apps =[
                   "link":"https://www.gp.srv.br/adm_chapada",
                   "brasao":"images/brasoes/chapada.png",
                   "nome":"Chapada"
-               },                
+               },
+               {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/adm_confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },               
                {
                   "datasearch":"SAAE CHAPADA",
                   "link":"https://www.gp.srv.br/adm_chapadasaae",
@@ -234,6 +240,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/adm_planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Planalto da Serra"
+               },               
                {
                   "datasearch":"NOVA MUTUM PREVIDENCIA",
                   "link":"https://www.gp.srv.br/adm_novamutumpv",
@@ -396,6 +408,12 @@ const apps =[
                   "nome":"Chapada"
                },
                {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/aplic_confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },               
+               {
                   "datasearch":"SAAE CHAPADA",
                   "link":"https://www.gp.srv.br/aplic_chapadasaae",
                   "brasao":"images/brasoes/chapada_saae.png",
@@ -533,6 +551,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/aplic_planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Planalto da Serra"
+               },               
                {
                   "datasearch":"NOVA MUTUM PREVIDENCIA",
                   "link":"https://www.gp.srv.br/aplic_novamutumpv",
@@ -724,6 +748,12 @@ const apps =[
                   "nome":"Chapada"
                },
                {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/central_confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },               
+               {
                   "datasearch":"SAAE CHAPADA",
                   "link":"https://www.gp.srv.br/central_chapadasaae",
                   "brasao":"images/brasoes/chapada_saae.png",
@@ -879,6 +909,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/central_planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Planalto da Serra"
+               },               
                {
                   "datasearch":"NOVA MUTUM PREVIDENCIA",
                   "link":"https://www.gp.srv.br/central_novamutumpv",
@@ -1053,6 +1089,12 @@ const apps =[
                   "nome":"Chapada"
                },
                {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/contabil_confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },                   
+               {
                   "datasearch":"SAAE CHAPADA",
                   "link":"https://www.gp.srv.br/contabil_chapadasaae",
                   "brasao":"images/brasoes/chapada_saae.png",
@@ -1190,6 +1232,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/contabil_planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Planalto da Serra"
+               },               
                {
                   "datasearch":"NOVA MUTUM PREVIDENCIA",
                   "link":"https://www.gp.srv.br/contabil_novamutumpv",
@@ -1387,6 +1435,12 @@ const apps =[
                   "nome":"Chapada"
                },
                {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/planejamento_confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },               
+               {
                   "datasearch":"SAAE CHAPADA",
                   "link":"https://www.gp.srv.br/planejamento_chapadasaae",
                   "brasao":"images/brasoes/chapada_saae.png",
@@ -1524,6 +1578,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/planejamento_planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Planalto da Serra"
+               },               
                {
                   "datasearch":"NOVA MUTUM PREVIDENCIA",
                   "link":"https://www.gp.srv.br/planejamento_novamutumpv",
@@ -1674,6 +1734,12 @@ const apps =[
                   "nome":"Chapada"
                },
                {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/protocolo_confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },               
+               {
                   "datasearch":"CISMNORTE",
                   "link":"https://www.gp.srv.br/protocolo_cismnorte",
                   "brasao":"images/brasoes/cismnorte.png",
@@ -1781,6 +1847,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/protocolo_planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Planalto da Serra"
+               },               
                {
                   "datasearch":"QUERENCIA QUERÊNCIA",
                   "link":"https://www.gp.srv.br/protocolo_querencia",
@@ -1919,6 +1991,12 @@ const apps =[
                   "nome":"Chapada"
                },
                {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/rh_confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },               
+               {
                   "datasearch":"SAAE CHAPADA",
                   "link":"https://www.gp.srv.br/rh_chapadasaae",
                   "brasao":"images/brasoes/chapada_saae.png",
@@ -2056,6 +2134,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/rh_planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Planalto da Serra"
+               },               
                {
                   "datasearch":"NOVA MUTUM PREVIDENCIA",
                   "link":"https://www.gp.srv.br/rh_novamutumpv",
@@ -2206,6 +2290,12 @@ const apps =[
                   "nome":"Chapada"
                },               
                {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/tributario/confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },               
+               {
                   "datasearch":"COLIDER",
                   "link":"https://www.gp.srv.br/tributario/colider",
                   "brasao":"images/brasoes/colider.png",
@@ -2277,6 +2367,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/tributario/planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Peixoto de Azevedo"
+               },               
                {
                   "datasearch":"QUERENCIA QUERÊNCIA",
                   "link":"https://www.gp.srv.br/tributario/querencia",
@@ -2421,6 +2517,12 @@ const apps =[
                   "nome":"Chapada"
                },
                {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/transparencia_confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },               
+               {
                   "datasearch":"SAAE CHAPADA",
                   "link":"https://www.gp.srv.br/transparencia_chapadasaae",
                   "brasao":"images/brasoes/chapada_saae.png",
@@ -2552,6 +2654,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/transparencia_planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Planalto da Serra"
+               },	               
                {
                   "datasearch":"NOVA MUTUM PREVIDENCIA",
                   "link":"https://www.gp.srv.br/transparencia_novamutumpv",
@@ -2731,6 +2839,12 @@ const apps =[
                   "nome":"Chapada"
                },
                {
+                  "datasearch":"CONFRESA",
+                  "link":"https://www.gp.srv.br/portalservidor_confresa",
+                  "brasao":"images/brasoes/confresa.png",
+                  "nome":"Confresa"
+               },               
+               {
                   "datasearch":"SAAE CHAPADA",
                   "link":"https://www.gp.srv.br/portalservidor_chapadasaae",
                   "brasao":"images/brasoes/chapada_saae.png",
@@ -2850,6 +2964,12 @@ const apps =[
                   "brasao":"images/brasoes/peixotodeazevedo.png",
                   "nome":"Peixoto de Azevedo"
                },
+               {
+                  "datasearch":"PLANALTO DA SERRA",
+                  "link":"https://www.gp.srv.br/portalservidor_planaltodaserra",
+                  "brasao":"images/brasoes/planaltodaserra.png",
+                  "nome":"Planalto da Serra"
+               },	               
                {
                   "datasearch":"NOVA MUTUM PREVIDENCIA",
                   "link":"https://www.gp.srv.br/portalservidor_novamutumpv",
